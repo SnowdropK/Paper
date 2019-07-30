@@ -1,0 +1,98 @@
+body{
+    background-color: #e6e7eb;
+    margin:0;
+    padding:0;
+    color:#999;
+}
+ul,li{
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+.home{
+    position: relative;
+    display:flex;
+    width:80vw;
+    margin: 5vh auto 0;
+}
+.home-title{
+    position: relative;
+    width: 16vw;
+    height: calc(80vw / 1711 * 843 - 0px);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../img/logo_b_6d5db810.png);
+    box-sizing: border-box;
+}
+.home-title .title h3{
+    font-size: 1.5vw;
+    font-weight: 400;
+    letter-spacing:1px;
+    line-height: 0.5;
+}
+.home-title .title svg text{
+    letter-spacing: 1px;
+    font-size: .7vw;
+    transform: scale(.8);
+    color:#999;
+}
+.home-title>.link-list{
+    position: absolute;
+    text-align: left;
+    bottom:38px;
+    cursor: pointer;
+}
+.home-title>.link-list2{
+    bottom:80px;
+}
+.home-title>.link-list3{
+    bottom:27px;
+}
+.home-title>.link-list4{
+    bottom:80px;
+}
+.home-title>.link-list5{
+    bottom:57px;
+}
+
+.home-title>.link-list{
+    font-size: 1vw;
+    line-height: 2.5;
+}
+.home-title>.show{
+    visibility: hidden;
+}
+/* .home-title>.link-list.link-list:hover{
+    background-color: red !important;
+    visibility: visible;
+} */
+.home-title.title1{
+    padding: 7vw 2.5vw 4vw;
+}
+.home-title.title2{
+    padding: 2vw 2.5vw 8vw;
+    background-position: 25% 0;
+}
+.home-title.title3{
+    padding: 9vw 3vw 3vw;
+    background-position: 50% 0;
+}
+.home-title.title4{
+    padding: 2vw 3.5vw 8vw;
+    background-position: 75% 0;
+}
+.home-title.title5{
+    padding: 6vw 3.5vw 5vw;
+    background-position: 100% 0;
+}
+
+.paper-logo{
+    height: calc(30vw / 509 * 58 - 0px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:2vh;
+}
+.paper-logo img{
+    width:30vw;
+}
